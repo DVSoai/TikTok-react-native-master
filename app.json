@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Tiktok",
+    "slug": "Tiktok",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.docongson.Tiktok"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyAiWcID3PNBH9MuLoQ041mt3ahabUEmGuM",
+          "authDomain": "tiktok-814ea.firebaseapp.com",
+          "projectId": "tiktok-814ea",
+          "storageBucket": "tiktok-814ea.appspot.com",
+          "messagingSenderId": "388164220027",
+          "appId": "1:388164220027:web:bce786a2b4ed1a5bde5ede",
+          "measurementId": "G-NW44EDH131"
+        }
+      }
+    }
+  }
+}
